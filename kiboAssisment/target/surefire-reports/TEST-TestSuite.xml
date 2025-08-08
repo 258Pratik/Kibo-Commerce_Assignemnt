@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="99.808" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="webdriver.chrome.driver" value="/Users/pratik/.cache/selenium/chromedriver/mac-arm64/138.0.7204.183/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/pratik/Desktop/kiboAssisment/target/test-classes:/Users/pratik/Desktop/kiboAssisment/target/classes:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-java/4.15.0/selenium-java-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-api/4.15.0/selenium-api-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.15.0/selenium-chrome-driver-4.15.0.jar:/Users/pratik/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.15.0/selenium-chromium-driver-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-json/4.15.0/selenium-json-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.15.0/selenium-manager-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.15.0/selenium-devtools-v117-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.15.0/selenium-devtools-v118-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.15.0/selenium-devtools-v119-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.15.0/selenium-devtools-v85-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.15.0/selenium-edge-driver-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.15.0/selenium-firefox-driver-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-http/4.15.0/selenium-http-4.15.0.jar:/Users/pratik/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.15.0/selenium-ie-driver-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.15.0/selenium-remote-driver-4.15.0.jar:/Users/pratik/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/pratik/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/pratik/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/pratik/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/pratik/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/pratik/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/pratik/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/pratik/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-os/4.15.0/selenium-os-4.15.0.jar:/Users/pratik/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.15.0/selenium-safari-driver-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-support/4.15.0/selenium-support-4.15.0.jar:/Users/pratik/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/pratik/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/pratik/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/pratik/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/pratik/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.2/webdrivermanager-5.6.2.jar:/Users/pratik/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/pratik/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/Users/pratik/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/Users/pratik/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/Users/pratik/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/Users/pratik/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/pratik/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/pratik/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/pratik/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/pratik/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/Users/pratik/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/Users/pratik/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/pratik/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/pratik/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/Users/pratik/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/pratik/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/pratik/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/pratik/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/pratik/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/pratik/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/pratik/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/pratik/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/pratik/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/pratik/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/pratik/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/pratik/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/pratik/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/pratik/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/24.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/pratik/Desktop/kiboAssisment/target/surefire/surefirebooter-20250809015222715_3.jar /Users/pratik/Desktop/kiboAssisment/target/surefire 2025-08-09T01-52-22_662-jvmRun1 surefire-20250809015222715_1tmp surefire_0-20250809015222715_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/pratik/Desktop/kiboAssisment/target/test-classes:/Users/pratik/Desktop/kiboAssisment/target/classes:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-java/4.15.0/selenium-java-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-api/4.15.0/selenium-api-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.15.0/selenium-chrome-driver-4.15.0.jar:/Users/pratik/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.15.0/selenium-chromium-driver-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-json/4.15.0/selenium-json-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.15.0/selenium-manager-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.15.0/selenium-devtools-v117-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.15.0/selenium-devtools-v118-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.15.0/selenium-devtools-v119-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.15.0/selenium-devtools-v85-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.15.0/selenium-edge-driver-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.15.0/selenium-firefox-driver-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-http/4.15.0/selenium-http-4.15.0.jar:/Users/pratik/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.15.0/selenium-ie-driver-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.15.0/selenium-remote-driver-4.15.0.jar:/Users/pratik/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/pratik/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/pratik/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/pratik/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/pratik/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/pratik/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/pratik/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/pratik/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/pratik/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-os/4.15.0/selenium-os-4.15.0.jar:/Users/pratik/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.15.0/selenium-safari-driver-4.15.0.jar:/Users/pratik/.m2/repository/org/seleniumhq/selenium/selenium-support/4.15.0/selenium-support-4.15.0.jar:/Users/pratik/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/pratik/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/pratik/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/pratik/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/pratik/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.2/webdrivermanager-5.6.2.jar:/Users/pratik/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/pratik/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/Users/pratik/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/Users/pratik/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/Users/pratik/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/Users/pratik/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/pratik/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/pratik/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/pratik/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/pratik/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/Users/pratik/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/Users/pratik/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/pratik/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/pratik/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/Users/pratik/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/pratik/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/pratik/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/pratik/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/pratik/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/pratik/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/pratik/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/pratik/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/pratik/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/pratik/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/pratik/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/pratik/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/pratik/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/pratik/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/pratik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/24.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/pratik/Desktop/kiboAssisment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/pratik/Desktop/kiboAssisment/target/surefire/surefirebooter-20250809015222715_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="24.0.2"/>
+    <property name="user.name" value="pratik"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/pratik/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/nq/lyn9hnl160q74c9w4z_0gqqr0000gn/T/"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="/Users/pratik/Desktop/kiboAssisment"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/pratik/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="24.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testEndToEndPurchaseFlow" classname="com.kiboassessment.tests.EndToEndPurchaseTest" time="96.876">
+    <system-out><![CDATA[01:52:23.362 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Test suite started: End-to-End Purchase Flow Test
+01:52:23.390 [TestNG-tests-1] INFO  com.kiboassessment.utils.ConfigReader - Configuration properties loaded successfully
+01:52:23.444 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - ExtentReports initialized
+01:52:23.457 [TestNG-tests-1] INFO  com.kiboassessment.tests.EndToEndPurchaseTest - Setting up test environment
+01:52:23.457 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - STEP: Initializing WebDriver and page objects
+01:52:23.458 [TestNG-tests-1] INFO  com.kiboassessment.utils.WebDriverManagerUtil - Initializing WebDriver for browser: chrome
+01:52:25.404 [TestNG-tests-1] INFO  com.kiboassessment.utils.WebDriverManagerUtil - WebDriver initialized successfully
+01:52:25.448 [TestNG-tests-1] INFO  com.kiboassessment.tests.EndToEndPurchaseTest - Test environment setup completed
+01:52:25.450 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Test started: testEndToEndPurchaseFlow
+01:52:25.457 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - STEP: Step 1: Launch browser and navigate to homepage
+01:52:25.457 [TestNG-tests-1] INFO  com.kiboassessment.pages.HomePage - Navigating to: https://demowebshop.tricentis.com/
+01:52:27.731 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Page loaded successfully
+01:52:27.733 [TestNG-tests-1] INFO  com.kiboassessment.pages.HomePage - Navigated to homepage
+01:52:27.742 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Successfully navigated to homepage: https://demowebshop.tricentis.com/
+01:52:27.931 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Base64 screenshot taken for: HomePage
+01:52:27.933 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Screenshot attached to report: Homepage loaded successfully
+01:52:27.933 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Screenshot attached to report: Homepage loaded successfully
+01:52:27.933 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - STEP: Step 2: Login with provided credentials
+01:52:27.968 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: a.ico-login]
+01:52:28.354 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: a.ico-login]
+01:52:28.354 [TestNG-tests-1] INFO  com.kiboassessment.pages.HomePage - Clicked login link
+01:52:28.375 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: Email]
+01:52:28.490 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully sent keys to element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: Email], Text: qa.user123@mailinator.com
+01:52:28.490 [TestNG-tests-1] INFO  com.kiboassessment.pages.HomePage - Entered email: qa.user123@mailinator.com
+01:52:28.506 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: Password]
+01:52:28.552 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully sent keys to element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: Password], Text: Engineer@09876
+01:52:28.552 [TestNG-tests-1] INFO  com.kiboassessment.pages.HomePage - Entered password
+01:52:28.576 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[type='submit'][value='Log in']]
+01:52:49.259 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: Proxy element for: DefaultElementLocator 'By.cssSelector: input[type='submit'][value='Log in']'
+01:52:49.259 [TestNG-tests-1] INFO  com.kiboassessment.pages.HomePage - Clicked login button
+01:52:49.259 [TestNG-tests-1] INFO  com.kiboassessment.pages.HomePage - Login completed
+01:53:09.342 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Login successful with email: qa.user123@mailinator.com
+01:53:09.541 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Base64 screenshot taken for: Login
+01:53:09.542 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Screenshot attached to report: Login completed successfully
+01:53:09.542 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Screenshot attached to report: Login completed successfully
+01:53:09.542 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - STEP: Step 3: Search for product: computer
+01:53:09.557 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: small-searchterms]
+01:53:09.612 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully sent keys to element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: small-searchterms], Text: computer
+01:53:09.634 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[type='submit'][value='Search']]
+01:53:09.670 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[type='submit'][value='Search']]
+01:53:09.670 [TestNG-tests-1] INFO  com.kiboassessment.pages.HomePage - Searched for product: computer
+01:53:10.376 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is present: By.cssSelector: .product-item
+01:53:10.376 [TestNG-tests-1] INFO  com.kiboassessment.pages.SearchResultsPage - Search results loaded
+01:53:10.399 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Search results displayed successfully. Found 4 products
+01:53:10.555 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Base64 screenshot taken for: Search Page
+01:53:10.556 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Screenshot attached to report: Product Search sucessfully
+01:53:10.556 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Screenshot attached to report: Product Search sucessfully
+01:53:10.556 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - STEP: Step 4: Add product to cart
+01:53:10.556 [TestNG-tests-1] INFO  com.kiboassessment.pages.HomePage - Refreshing page
+01:53:11.180 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Page loaded successfully
+01:53:11.203 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .product-item .product-title]
+01:53:11.213 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .product-item .product-title], Text: Build your own cheap computer
+01:53:11.219 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .product-item .product-title]
+01:53:11.225 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .product-item .product-title], Text: Build your own computer
+01:53:11.231 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .product-item .product-title]
+01:53:11.239 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .product-item .product-title], Text: Build your own expensive computer
+01:53:11.247 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .product-item .product-title]
+01:53:11.252 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .product-item .product-title], Text: Simple Computer
+01:53:11.252 [TestNG-tests-1] INFO  com.kiboassessment.pages.SearchResultsPage - product Name found at index: 0
+01:53:11.279 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[value='Add to cart']]
+01:53:11.304 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[value='Add to cart']]
+01:53:11.304 [TestNG-tests-1] INFO  com.kiboassessment.pages.SearchResultsPage - Added product to cart: Build your own cheap computer
+01:53:11.304 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Successfully added product to cart: Build your own cheap computer
+01:53:11.464 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Base64 screenshot taken for: Add to Card Page
+01:53:11.465 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Screenshot attached to report: Add to Card Product sucessfully
+01:53:11.465 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Screenshot attached to report: Add to Card Product sucessfully
+01:53:12.193 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .add-to-cart .button-1 ]
+01:53:12.233 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .add-to-cart .button-1 ]
+01:53:12.233 [TestNG-tests-1] INFO  com.kiboassessment.pages.SearchResultsPage - Clicked on Add to cart button on product Details Page
+01:53:12.233 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - STEP: Step 5: Navigate to cart and verify product
+01:53:12.255 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: a.ico-cart]
+01:53:12.986 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: a.ico-cart]
+01:53:12.987 [TestNG-tests-1] INFO  com.kiboassessment.pages.HomePage - Clicked cart link
+01:53:12.997 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is present: By.cssSelector: .cart-item-row
+01:53:12.997 [TestNG-tests-1] INFO  com.kiboassessment.pages.CartPage - Cart loaded
+01:53:13.013 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .cart-item-row .product-name]
+01:53:13.018 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .cart-item-row .product-name], Text: Build your own cheap computer
+01:53:13.018 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Product verified in cart: Build your own cheap computer
+01:53:13.034 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .cart-total]
+01:53:13.050 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .cart-total], Text: Sub-Total: 815.00
+Shipping: 0.00
+Tax: 0.00
+Total: 815.00
+01:53:13.051 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Cart total: Sub-Total: 815.00
+Shipping: 0.00
+Tax: 0.00
+Total: 815.00
+01:53:13.190 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Base64 screenshot taken for: Cart Page
+01:53:13.191 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Screenshot attached to report: Product Cart Added sucessfully
+01:53:13.191 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Screenshot attached to report: Product Cart Added sucessfully
+01:53:13.191 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - STEP: Step 6: Proceed to checkout
+01:53:13.212 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: checkout]
+01:53:13.251 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: checkout]
+01:53:13.251 [TestNG-tests-1] INFO  com.kiboassessment.pages.CartPage - Clicked checkout button
+01:53:13.251 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Proceeded to checkout
+01:53:13.251 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - STEP: Step 7: Fill billing and shipping details
+01:53:13.273 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: termsofservice]
+01:53:13.305 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: termsofservice]
+01:53:13.305 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Clicked agree terms of service checkbox
+01:53:13.326 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: checkout]
+01:53:14.443 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: checkout]
+01:53:14.443 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Clicked checkout billing page
+01:53:14.510 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Selected billing address: New Address
+01:53:14.525 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_FirstName]
+01:53:14.567 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully sent keys to element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_FirstName], Text: John
+01:53:14.581 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_LastName]
+01:53:14.623 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully sent keys to element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_LastName], Text: Doe
+01:53:14.637 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_Email]
+01:53:14.682 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully sent keys to element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_Email], Text: john.doe@example.com
+01:53:14.696 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_Company]
+01:53:14.739 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully sent keys to element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_Company], Text: Test Company
+01:53:15.030 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_City]
+01:53:15.073 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully sent keys to element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_City], Text: Los Angeles
+01:53:15.087 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_Address1]
+01:53:15.130 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully sent keys to element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_Address1], Text: 123 Test Street
+01:53:15.145 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_ZipPostalCode]
+01:53:15.185 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully sent keys to element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_ZipPostalCode], Text: 90210
+01:53:15.199 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_PhoneNumber]
+01:53:15.242 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully sent keys to element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: BillingNewAddress_PhoneNumber], Text: 1234567890
+01:53:15.242 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Filled billing address information
+01:53:15.261 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[onclick='Billing.save()']]
+01:53:15.300 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[onclick='Billing.save()']]
+01:53:15.301 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Clicked billing continue button
+01:53:16.373 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[onclick='Shipping.save()']]
+01:53:16.416 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[onclick='Shipping.save()']]
+01:53:16.416 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Clicked shipping continue button
+01:53:16.679 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: shippingoption_0]
+01:53:16.720 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: shippingoption_0]
+01:53:16.720 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Selected shipping method: ground
+01:53:16.743 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[onclick='ShippingMethod.save()']]
+01:53:16.775 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[onclick='ShippingMethod.save()']]
+01:53:16.775 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Clicked shipping method continue button
+01:53:17.048 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: paymentmethod_0]
+01:53:17.088 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> id: paymentmethod_0]
+01:53:17.088 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Selected payment method: check
+01:53:17.108 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[onclick='PaymentMethod.save()']]
+01:53:17.140 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[onclick='PaymentMethod.save()']]
+01:53:17.140 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Clicked payment method continue button
+01:53:17.698 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[onclick='PaymentInfo.save()']]
+01:53:17.742 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[onclick='PaymentInfo.save()']]
+01:53:17.742 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Clicked payment info continue button
+01:53:18.300 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[onclick='ConfirmOrder.save()']]
+01:53:18.345 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: input[onclick='ConfirmOrder.save()']]
+01:53:18.345 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Clicked confirm order button
+01:53:18.345 [TestNG-tests-1] INFO  com.kiboassessment.pages.CheckoutPage - Completed checkout process
+01:53:18.345 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Completed checkout process with billing and shipping details
+01:53:18.345 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - STEP: Step 8: Verify order confirmation
+01:53:19.534 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is present: By.cssSelector: .order-completed
+01:53:19.534 [TestNG-tests-1] INFO  com.kiboassessment.pages.OrderConfirmationPage - Order confirmation loaded
+01:53:19.706 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Base64 screenshot taken for: Confirmation Page
+01:53:19.706 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Screenshot attached to report: Sucessfully Checkout With Added Product
+01:53:19.706 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Screenshot attached to report: Sucessfully Checkout With Added Product
+01:53:19.721 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .section.order-completed .title]
+01:53:19.733 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .section.order-completed .title], Text: Your order has been successfully processed!
+01:53:19.733 [TestNG-tests-1] INFO  com.kiboassessment.pages.OrderConfirmationPage - isOrderConfirmationDisplayed 
+01:53:19.744 [TestNG-tests-1] INFO  com.kiboassessment.pages.OrderConfirmationPage - isSuccessMessageDisplayed 
+01:53:19.752 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Order confirmation successful
+01:53:19.775 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .section.order-completed .details a]
+01:53:40.293 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: Proxy element for: DefaultElementLocator 'By.cssSelector: .section.order-completed .details a'
+01:53:40.293 [TestNG-tests-1] INFO  com.kiboassessment.pages.OrderConfirmationPage - Clicked on order Details Link
+01:53:40.300 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Page loaded successfully
+01:53:40.300 [TestNG-tests-1] INFO  com.kiboassessment.pages.OrderConfirmationPage - Inside getCompleteOrderInformation
+01:53:40.326 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .page-title]
+01:53:40.341 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .page-title], Text: Order information
+Print
+PDF Invoice
+01:53:40.357 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .order-number]
+01:53:40.368 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .order-number], Text: Order #2067801
+01:53:40.382 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .order-details]
+01:53:40.392 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .order-details], Text: Order Date: Friday, August 8, 2025
+Order Status: Pending
+01:53:40.405 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .order-overview .order-total strong]
+01:53:40.415 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .order-overview .order-total strong], Text: 822.00
+01:53:40.428 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .billing-info .name]
+01:53:40.438 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .billing-info .name], Text: John Doe
+01:53:40.450 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .billing-info .email]
+01:53:40.460 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .billing-info .email], Text: Email: john.doe@example.com
+01:53:40.472 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .billing-info .phone]
+01:53:40.482 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .billing-info .phone], Text: Phone: 1234567890
+01:53:40.495 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .billing-info .address1]
+01:53:40.505 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .billing-info .address1], Text: 123 Test Street
+01:53:40.517 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .billing-info .city-state-zip]
+01:53:40.527 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .billing-info .city-state-zip], Text: Los Angeles , California 90210
+01:53:40.540 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .billing-info .country]
+01:53:40.550 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .billing-info .country], Text: United States
+01:53:40.564 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .shipping-info .name]
+01:53:40.575 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .shipping-info .name], Text: Aslam Attar
+01:53:40.588 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .shipping-info .email]
+01:53:40.598 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .shipping-info .email], Text: Email: qa.user123@mailinator.com
+01:53:40.611 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .shipping-info .phone]
+01:53:40.621 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .shipping-info .phone], Text: Phone: 9545862504
+01:53:40.633 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .shipping-info .address1]
+01:53:40.643 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .shipping-info .address1], Text: 2945 N Tucson Blvd
+01:53:40.655 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .shipping-info .city-state-zip]
+01:53:40.664 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .shipping-info .city-state-zip], Text: Tucson , Illinois 85716
+01:53:40.677 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .shipping-info .country]
+01:53:40.687 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .shipping-info .country], Text: United States
+01:53:40.700 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .products .data-table .name em a]
+01:53:40.710 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .products .data-table .name em a], Text: Build your own cheap computer
+01:53:40.722 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .products .data-table .price]
+01:53:40.733 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .products .data-table .price], Text: Price
+01:53:40.745 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .products .data-table .quantity]
+01:53:40.755 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .products .data-table .quantity], Text: Quantity
+01:53:40.768 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is visible: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .products .data-table .total]
+01:53:40.778 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Got text from element: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: .products .data-table .total], Text: Total
+01:53:40.778 [TestNG-tests-1] INFO  com.kiboassessment.pages.OrderConfirmationPage - Complete order information retrieved
+01:53:40.778 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Order Information:
+Page Title: Order information
+Print
+PDF Invoice
+Order Number: Order #2067801
+Order Details: Order Date: Friday, August 8, 2025
+Order Status: Pending
+Order Total: 822.00
+
+Billing Information:
+Name: John Doe
+Email: Email: john.doe@example.com
+Phone: Phone: 1234567890
+Address: 123 Test Street
+City/State/Zip: Los Angeles , California 90210
+Country: United States
+
+Shipping Information:
+Name: Aslam Attar
+Email: Email: qa.user123@mailinator.com
+Phone: Phone: 9545862504
+Address: 2945 N Tucson Blvd
+City/State/Zip: Tucson , Illinois 85716
+Country: United States
+
+Product Information:
+Product Name: Build your own cheap computer
+Price: Price
+Quantity: Quantity
+Total: Total
+
+01:53:40.919 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Base64 screenshot taken for: OrderConfirmation
+01:53:40.920 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Screenshot attached to report: Order confirmation page
+01:53:40.920 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Screenshot attached to report: Order confirmation page
+01:53:40.920 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - STEP: Step 9: Logout from application
+01:53:40.938 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Element is clickable: [[ChromeDriver: chrome on mac (556fffdd43e689c38e51faffc3b3805f)] -> css selector: a.ico-logout]
+01:54:02.139 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Successfully clicked element: Proxy element for: DefaultElementLocator 'By.cssSelector: a.ico-logout'
+01:54:02.139 [TestNG-tests-1] INFO  com.kiboassessment.pages.HomePage - Clicked logout link
+01:54:02.162 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Logout successful
+01:54:02.162 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - End-to-End Purchase Flow Test completed successfully!
+01:54:02.165 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Test passed: testEndToEndPurchaseFlow
+01:54:02.325 [TestNG-tests-1] INFO  com.kiboassessment.utils.TestUtils - PASS: Base64 screenshot taken for: testEndToEndPurchaseFlow_PASS
+01:54:02.325 [TestNG-tests-1] INFO  com.kiboassessment.listeners.TestListener - Screenshot attached to report: Test Pass Screenshot
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Aug 09, 2025 1:52:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Aug 09, 2025 1:52:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.184. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

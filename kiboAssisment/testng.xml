@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E-commerce Test Suite" parallel="tests" thread-count="1">
+    <test name="End-to-End Purchase Flow Test">
+        <classes>
+            <class name="com.kiboassessment.tests.EndToEndPurchaseTest"/>
+        </classes>
+    </test>
+    
+    <listeners>
+        <listener class-name="com.kiboassessment.listeners.TestListener"/>
+    </listeners>
+</suite> 
